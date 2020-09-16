@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "type": "module",
     "license": "MIT",
-    "tags": [
+    "keywords": [
         "zend framework",
         "zf2",
         "whoops"
@@ -31,10 +31,10 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zend-eventmanager": "*",
-        "zendframework/zend-config": "*",
-        "zendframework/zend-mvc": "*",
-        "zendframework/zend-console": "*",
+        "laminas/laminas-eventmanager": "*",
+        "laminas/laminas-config": "*",
+        "laminas/laminas-mvc": "*",
+        "laminas/laminas-console": "*",
         "filp/whoops": "2.*"
     },
     "autoload": {

@@ -1,16 +1,16 @@
 <?php
 namespace Zf2Whoops;
 
-use Zend\EventManager\EventInterface;
-use Zend\ModuleManager\Feature\BootstrapListenerInterface;
-use Zend\Console\Request as ConsoleRequest;
-use Zend\Stdlib\ResponseInterface as Response;
-use Zend\Mvc\Application;
-use Zend\Mvc\MvcEvent;
+use Laminas\EventManager\EventInterface;
+use Laminas\ModuleManager\Feature\BootstrapListenerInterface;
+use Laminas\Console\Request as ConsoleRequest;
+use Laminas\Stdlib\ResponseInterface as Response;
+use Laminas\Mvc\Application;
+use Laminas\Mvc\MvcEvent;
 use Whoops\Run;
 use Whoops\Handler\JsonResponseHandler;
 use Whoops\Handler\PrettyPageHandler;
-use Zend\Http\PhpEnvironment\Request;
+use Laminas\Http\PhpEnvironment\Request;
 
 class Module implements BootstrapListenerInterface
 {
